@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE24E0F92872D0E800A331D4 /* WallWarsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E0F82872D0E800A331D4 /* WallWarsAppApp.swift */; };
+		CE24E0FB2872D0E800A331D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E0FA2872D0E800A331D4 /* ContentView.swift */; };
+		CE24E0FD2872D0EF00A331D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE24E0FC2872D0EF00A331D4 /* Assets.xcassets */; };
+		CE24E1002872D0EF00A331D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE24E0FF2872D0EF00A331D4 /* Preview Assets.xcassets */; };
+		CE24E10A2872D0F000A331D4 /* WallWarsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E1092872D0F000A331D4 /* WallWarsAppTests.swift */; };
+		CE24E1142872D0F000A331D4 /* WallWarsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E1132872D0F000A331D4 /* WallWarsAppUITests.swift */; };
+		CE24E1162872D0F000A331D4 /* WallWarsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E1152872D0F000A331D4 /* WallWarsAppUITestsLaunchTests.swift */; };
+		CE24E1252872D16000A331D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24E1242872D16000A331D4 /* GameScene.swift */; };
+		CE5980FE287320D70062894B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5980FD287320D70062894B /* GameOverScene.swift */; };
+		CE598100287323910062894B /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE5980FF287323910062894B /* spark.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE24E1062872D0F000A331D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE24E0ED2872D0E800A331D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE24E0F42872D0E800A331D4;
+			remoteInfo = WallWarsApp;
+		};
+		CE24E1102872D0F000A331D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE24E0ED2872D0E800A331D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE24E0F42872D0E800A331D4;
+			remoteInfo = WallWarsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE24E0F52872D0E800A331D4 /* WallWarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallWarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE24E0F82872D0E800A331D4 /* WallWarsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWarsAppApp.swift; sourceTree = "<group>"; };
+		CE24E0FA2872D0E800A331D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE24E0FC2872D0EF00A331D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE24E0FF2872D0EF00A331D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE24E1052872D0F000A331D4 /* WallWarsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallWarsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE24E1092872D0F000A331D4 /* WallWarsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWarsAppTests.swift; sourceTree = "<group>"; };
+		CE24E10F2872D0F000A331D4 /* WallWarsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallWarsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE24E1132872D0F000A331D4 /* WallWarsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWarsAppUITests.swift; sourceTree = "<group>"; };
+		CE24E1152872D0F000A331D4 /* WallWarsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallWarsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE24E1242872D16000A331D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CE5980FD287320D70062894B /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		CE5980FF287323910062894B /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE24E0F22872D0E800A331D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E1022872D0F000A331D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E10C2872D0F000A331D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE24E0EC2872D0E800A331D4 = {
+			isa = PBXGroup;
+			children = (
+				CE24E0F72872D0E800A331D4 /* WallWarsApp */,
+				CE24E1082872D0F000A331D4 /* WallWarsAppTests */,
+				CE24E1122872D0F000A331D4 /* WallWarsAppUITests */,
+				CE24E0F62872D0E800A331D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE24E0F62872D0E800A331D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE24E0F52872D0E800A331D4 /* WallWarsApp.app */,
+				CE24E1052872D0F000A331D4 /* WallWarsAppTests.xctest */,
+				CE24E10F2872D0F000A331D4 /* WallWarsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE24E0F72872D0E800A331D4 /* WallWarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE24E0F82872D0E800A331D4 /* WallWarsAppApp.swift */,
+				CE24E0FA2872D0E800A331D4 /* ContentView.swift */,
+				CE24E1242872D16000A331D4 /* GameScene.swift */,
+				CE5980FD287320D70062894B /* GameOverScene.swift */,
+				CE5980FF287323910062894B /* spark.sks */,
+				CE24E0FC2872D0EF00A331D4 /* Assets.xcassets */,
+				CE24E0FE2872D0EF00A331D4 /* Preview Content */,
+			);
+			path = WallWarsApp;
+			sourceTree = "<group>";
+		};
+		CE24E0FE2872D0EF00A331D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE24E0FF2872D0EF00A331D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE24E1082872D0F000A331D4 /* WallWarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE24E1092872D0F000A331D4 /* WallWarsAppTests.swift */,
+			);
+			path = WallWarsAppTests;
+			sourceTree = "<group>";
+		};
+		CE24E1122872D0F000A331D4 /* WallWarsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE24E1132872D0F000A331D4 /* WallWarsAppUITests.swift */,
+				CE24E1152872D0F000A331D4 /* WallWarsAppUITestsLaunchTests.swift */,
+			);
+			path = WallWarsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE24E0F42872D0E800A331D4 /* WallWarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE24E1192872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsApp" */;
+			buildPhases = (
+				CE24E0F12872D0E800A331D4 /* Sources */,
+				CE24E0F22872D0E800A331D4 /* Frameworks */,
+				CE24E0F32872D0E800A331D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallWarsApp;
+			productName = WallWarsApp;
+			productReference = CE24E0F52872D0E800A331D4 /* WallWarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE24E1042872D0F000A331D4 /* WallWarsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE24E11C2872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsAppTests" */;
+			buildPhases = (
+				CE24E1012872D0F000A331D4 /* Sources */,
+				CE24E1022872D0F000A331D4 /* Frameworks */,
+				CE24E1032872D0F000A331D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE24E1072872D0F000A331D4 /* PBXTargetDependency */,
+			);
+			name = WallWarsAppTests;
+			productName = WallWarsAppTests;
+			productReference = CE24E1052872D0F000A331D4 /* WallWarsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE24E10E2872D0F000A331D4 /* WallWarsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE24E11F2872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsAppUITests" */;
+			buildPhases = (
+				CE24E10B2872D0F000A331D4 /* Sources */,
+				CE24E10C2872D0F000A331D4 /* Frameworks */,
+				CE24E10D2872D0F000A331D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE24E1112872D0F000A331D4 /* PBXTargetDependency */,
+			);
+			name = WallWarsAppUITests;
+			productName = WallWarsAppUITests;
+			productReference = CE24E10F2872D0F000A331D4 /* WallWarsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE24E0ED2872D0E800A331D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CE24E0F42872D0E800A331D4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CE24E1042872D0F000A331D4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CE24E0F42872D0E800A331D4;
+					};
+					CE24E10E2872D0F000A331D4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = CE24E0F42872D0E800A331D4;
+					};
+				};
+			};
+			buildConfigurationList = CE24E0F02872D0E800A331D4 /* Build configuration list for PBXProject "WallWarsApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE24E0EC2872D0E800A331D4;
+			productRefGroup = CE24E0F62872D0E800A331D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE24E0F42872D0E800A331D4 /* WallWarsApp */,
+				CE24E1042872D0F000A331D4 /* WallWarsAppTests */,
+				CE24E10E2872D0F000A331D4 /* WallWarsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE24E0F32872D0E800A331D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE24E1002872D0EF00A331D4 /* Preview Assets.xcassets in Resources */,
+				CE598100287323910062894B /* spark.sks in Resources */,
+				CE24E0FD2872D0EF00A331D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E1032872D0F000A331D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E10D2872D0F000A331D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE24E0F12872D0E800A331D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE24E1252872D16000A331D4 /* GameScene.swift in Sources */,
+				CE24E0FB2872D0E800A331D4 /* ContentView.swift in Sources */,
+				CE5980FE287320D70062894B /* GameOverScene.swift in Sources */,
+				CE24E0F92872D0E800A331D4 /* WallWarsAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E1012872D0F000A331D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE24E10A2872D0F000A331D4 /* WallWarsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE24E10B2872D0F000A331D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE24E1142872D0F000A331D4 /* WallWarsAppUITests.swift in Sources */,
+				CE24E1162872D0F000A331D4 /* WallWarsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE24E1072872D0F000A331D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE24E0F42872D0E800A331D4 /* WallWarsApp */;
+			targetProxy = CE24E1062872D0F000A331D4 /* PBXContainerItemProxy */;
+		};
+		CE24E1112872D0F000A331D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE24E0F42872D0E800A331D4 /* WallWarsApp */;
+			targetProxy = CE24E1102872D0F000A331D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE24E1172872D0F000A331D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE24E1182872D0F000A331D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE24E11A2872D0F000A331D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallWarsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SCFZURSF4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE24E11B2872D0F000A331D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WallWarsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SCFZURSF4Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE24E11D2872D0F000A331D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallWarsApp.app/WallWarsApp";
+			};
+			name = Debug;
+		};
+		CE24E11E2872D0F000A331D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallWarsApp.app/WallWarsApp";
+			};
+			name = Release;
+		};
+		CE24E1202872D0F000A331D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WallWarsApp;
+			};
+			name = Debug;
+		};
+		CE24E1212872D0F000A331D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stefano.WallWarsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WallWarsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE24E0F02872D0E800A331D4 /* Build configuration list for PBXProject "WallWarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE24E1172872D0F000A331D4 /* Debug */,
+				CE24E1182872D0F000A331D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE24E1192872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE24E11A2872D0F000A331D4 /* Debug */,
+				CE24E11B2872D0F000A331D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE24E11C2872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE24E11D2872D0F000A331D4 /* Debug */,
+				CE24E11E2872D0F000A331D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE24E11F2872D0F000A331D4 /* Build configuration list for PBXNativeTarget "WallWarsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE24E1202872D0F000A331D4 /* Debug */,
+				CE24E1212872D0F000A331D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE24E0ED2872D0E800A331D4 /* Project object */;
+}
