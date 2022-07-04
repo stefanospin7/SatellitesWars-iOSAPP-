@@ -1,10 +1,13 @@
 # SatellitesWars-iOSAPP-
+
+***
 This is an iOs App (SwiftUI, SpriteKit) which take inspiration from the classic game "Space Invaders" with some variations and different features
 
+***
 
 ## Examples:
 
-***
+
 
 ### Screenshot 1:
 ![screen01](https://user-images.githubusercontent.com/94653280/177180082-c44e375b-3a86-475e-a05a-c25a65f3aad0.png)
