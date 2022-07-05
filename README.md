@@ -9,6 +9,18 @@ This is an iOs App (SwiftUI, SpriteKit) which take inspiration from the classic 
 ## Examples:
 
 
+### Gameplay
+https://user-images.githubusercontent.com/94653280/177282102-5308ddd4-5809-4788-a9e7-3c24211fe9da.mp4
+
+
+
+### GameOver
+https://user-images.githubusercontent.com/94653280/177282135-de8dad96-2adf-475f-af60-d14404eb30cc.mp4
+
+
+
+
+
 
 ### Screenshot 1:
 ![screen01](https://user-images.githubusercontent.com/94653280/177180082-c44e375b-3a86-475e-a05a-c25a65f3aad0.png)
